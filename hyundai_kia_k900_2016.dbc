@@ -202,7 +202,7 @@ BO_ 544 ESP12: 8 XXX
  SG_ YAW_RATE_STAT : 62|1@1+ (1,0) [0|1] "" XXX
  SG_ YAW_RATE_DIAG : 63|1@1+ (1,0) [0|1] "" XXX
 
-BO_ 608 EMS16: 8 XXX
+BO_ 608 EMS161: 8 XXX
  SG_ TQI_MIN : 0|8@1+ (0.390625,0) [0|99.6094] "%" XXX
  SG_ TQI : 8|8@1+ (0.390625,0) [0|99.6094] "%" XXX
  SG_ TQI_TARGET : 16|8@1+ (0.390625,0) [0|99.6094] "%" XXX
@@ -235,11 +235,11 @@ BO_ 672 EMS15: 8 XXX
  SG_ CTR_CDN_OBD : 48|16@1+ (1,0) [0|65535] "" XXX
 
 BO_ 688 SAS11: 8 XXX
- SG_ SAS_Angle : 0|16@1+ (0.1,0) [-3276.8|3276.7] "Deg" XXX
- SG_ SAS_Speed : 16|8@1+ (4,0) [0|1016] "" XXX
  SG_ SAS_Stat : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ MsgCount : 32|4@1+ (1,0) [0|15] "" XXX
  SG_ CheckSum : 36|4@1+ (1,0) [0|15] "" XXX
+ SG_ SAS_Speed : 16|8@1+ (4,0) [0|1016] "" XXX
+ SG_ SAS_Angle : 0|16@1+ (0.1,0) [-3276.8|3276.7] "Deg" XXX
 
 BO_ 790 EMS11: 8 XXX
  SG_ SWI_IGK : 0|1@1+ (1,0) [0|1] "" XXX
@@ -390,7 +390,6 @@ BO_ 1200 WHL_SPD11: 8 XXX
 
 BO_ 1201 WHL_PUL11: 8 XXX
  SG_ WHL_PUL_FL : 0|8@1+ (0.5,0) [0|127.5] "pulse count" XXX
- SG_ WHL_PUL_FR : 8|8@1+ (0.5,0) [0|127.5] "pulse count" XXX
  SG_ WHL_PUL_RL : 16|8@1+ (0.5,0) [0|127.5] "pulse count" XXX
  SG_ WHL_PUL_RR : 24|8@1+ (0.5,0) [0|127.5] "pulse count" XXX
  SG_ WHL_DIR_FL : 32|2@1+ (1,0) [0|3] "" XXX
@@ -398,6 +397,7 @@ BO_ 1201 WHL_PUL11: 8 XXX
  SG_ WHL_DIR_RL : 36|2@1+ (1,0) [0|3] "" XXX
  SG_ WHL_DIR_RR : 38|2@1+ (1,0) [0|3] "" XXX
  SG_ WHL_PUL_Chksum : 56|8@1+ (1,0) [0|255] "" XXX
+ SG_ WHL_PUL_FR : 8|8@1+ (0.5,0) [0|127.5] "pulse count" XXX
 
 BO_ 1264 CLU11: 8 XXX
  SG_ CF_Clu_CruiseSwState : 0|3@1+ (1,0) [0|7] "" XXX
@@ -514,3 +514,7 @@ BO_ 1680 CLU12: 8 XXX
  SG_ CF_Clu_LkasDispMode : 56|2@1+ (1,0) [0|3] "" XXX
  SG_ CF_Clu_AutoLightLevel : 58|2@1+ (1,0) [0|3] "" XXX
  SG_ CF_Clu_SunRoofOpenState : 60|1@1+ (1,0) [0|1] "" XXX
+
+BO_ 1056 NEW_MSG_1: 8 XXX
+ SG_ alive : 12|4@1+ (1,0) [0|15] "" XXX
+ SG_ v_set : 40|8@1+ (1,0) [0|255] "" XXX
