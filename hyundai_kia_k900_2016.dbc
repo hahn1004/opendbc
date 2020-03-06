@@ -239,7 +239,7 @@ BO_ 688 SAS11: 8 XXX
  SG_ MsgCount : 32|4@1+ (1,0) [0|15] "" XXX
  SG_ CheckSum : 36|4@1+ (1,0) [0|15] "" XXX
  SG_ SAS_Speed : 16|8@1+ (4,0) [0|1016] "" XXX
- SG_ SAS_Angle : 0|16@1+ (0.1,0) [-3276.8|3276.7] "Deg" XXX
+ SG_ SAS_Angle : 0|16@1- (0.1,0) [-3276.8|3276.7] "Deg" XXX
 
 BO_ 790 EMS11: 8 XXX
  SG_ SWI_IGK : 0|1@1+ (1,0) [0|1] "" XXX
