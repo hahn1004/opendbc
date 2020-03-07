@@ -492,7 +492,6 @@ BO_ 1680 CLU12: 8 XXX
  SG_ CF_Clu_TrunkTgSw : 18|2@1+ (1,0) [0|3] "" XXX
  SG_ CF_Clu_AstSeatBeltSw : 20|2@1+ (1,0) [0|3] "" XXX
  SG_ CF_Clu_HoodSw : 22|2@1+ (1,0) [0|3] "" XXX
- SG_ CF_Clu_TurnSigLh : 24|1@1+ (1,0) [0|1] "" XXX
  SG_ CF_Clu_TurnSigRh : 25|1@1+ (1,0) [0|1] "" XXX
  SG_ CF_Clu_LdwsLkasSW : 26|1@1+ (1,0) [0|1] "" XXX
  SG_ CF_Clu_WiperIntT : 27|3@1+ (1,0) [0|7] "" XXX
@@ -514,9 +513,11 @@ BO_ 1680 CLU12: 8 XXX
  SG_ CF_Clu_LkasDispMode : 56|2@1+ (1,0) [0|3] "" XXX
  SG_ CF_Clu_AutoLightLevel : 58|2@1+ (1,0) [0|3] "" XXX
  SG_ CF_Clu_SunRoofOpenState : 60|1@1+ (1,0) [0|1] "" XXX
+ SG_ CF_Clu_TurnSigLh : 24|1@1+ (1,0) [0|1] "" XXX
 
 BO_ 1056 SCC11: 8 XXX
- SG_ MainMode_ACC : 5|1@1+ (1,0) [0|1] "" XXX
- SG_ VSetDis : 40|8@1+ (1,0) [0|255] "km/h" XXX
  SG_ AliveCounterACC : 12|4@1+ (1,0) [0|15] "" XXX
- SG_ ACC_ObjDist : 20|11@1+ (0.1,0) [0|204.7] "" XXX
+ SG_ MainMode_ACC : 3|1@1+ (1,0) [0|1] "" XXX
+ SG_ VSetDis : 40|8@1+ (1,0) [0|255] "km/h" XXX
+ SG_ ACC_ObjDist : 37|10@1- (0.1,0) [0|204.7] "" XXX
+ SG_ NEW_SIGNAL_2 : 5|2@1+ (1,0) [0|3] "" XXX
