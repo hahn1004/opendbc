@@ -207,7 +207,6 @@ BO_ 608 EMS16: 8 XXX
  SG_ TQI : 8|8@1+ (0.390625,0) [0|99.6094] "%" XXX
  SG_ TQI_TARGET : 16|8@1+ (0.390625,0) [0|99.6094] "%" XXX
  SG_ GLOW_STAT : 24|1@1+ (1,0) [0|1] "" XXX
- SG_ CRUISE_LAMP_M : 25|1@1+ (1,0) [0|1] "" XXX
  SG_ CRUISE_LAMP_S : 26|1@1+ (1,0) [0|1] "" XXX
  SG_ PRE_FUEL_CUT_IN : 27|1@1+ (1,0) [0|1] "" XXX
  SG_ ENG_STAT : 28|3@1+ (1,0) [0|7] "" XXX
@@ -216,8 +215,9 @@ BO_ 608 EMS16: 8 XXX
  SG_ TQI_MAX : 40|8@1+ (0.390625,0) [0|99.6094] "%" XXX
  SG_ SPK_TIME_CUR : 48|8@1+ (0.375,-35.625) [-35.625|60] "" XXX
  SG_ Checksum : 56|4@1+ (1,0) [0|15] "" XXX
- SG_ AliveCounter : 60|2@1+ (1,0) [0|3] "" XXX
  SG_ CF_Ems_AclAct : 62|2@1+ (1,0) [0|3] "" XXX
+ SG_ CRUISE_LAMP_M : 25|1@1+ (1,0) [0|1] "" XXX
+ SG_ AliveCounter : 60|2@1+ (1,0) [0|3] "" XXX
 
 BO_ 672 EMS15: 8 XXX
  SG_ ECGPOvrd : 0|1@1+ (1,0) [0|1] "" XXX
@@ -517,13 +517,15 @@ BO_ 1680 CLU12: 8 XXX
 
 BO_ 1056 SCC11: 8 XXX
  SG_ VSetDis : 40|8@1+ (1,0) [0|255] "km/h" XXX
- SG_ ACC_ObjStatus : 48|2@1+ (1,0) [0|3] "" XXX
- SG_ MainMode_ACC : 3|1@1+ (1,0) [0|1] "" XXX
  SG_ TauGapSet : 52|3@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_3 : 10|1@0+ (1,0) [0|1] "" XXX
  SG_ AliveCounterACC : 12|4@1+ (1,0) [0|15] "" XXX
  SG_ aReqMax : 16|11@1+ (0.01,-10.23) [-10.23|10.24] "m/s^2" XXX
  SG_ aReqMin : 29|11@1+ (0.01,-10.23) [-10.23|10.24] "m/s^2" XXX
+ SG_ ACC_ObjStatus : 48|2@1+ (1,0) [0|3] "" XXX
+ SG_ MainMode_ACC : 3|1@1+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 10|1@0+ (1,0) [0|1] "" XXX
+ SG_ CRUISE_MARK : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ StopReq : 6|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 1461 SCC12: 8 XXX
  SG_ ACC_ObjDist : 17|11@1+ (0.1,0) [0|204.7] "m" XXX
