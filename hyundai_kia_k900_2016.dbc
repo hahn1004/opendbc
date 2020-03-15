@@ -526,6 +526,7 @@ BO_ 1056 SCC11: 8 XXX
  SG_ NEW_SIGNAL_3 : 10|1@0+ (1,0) [0|1] "" XXX
  SG_ CRUISE_MARK : 5|1@0+ (1,0) [0|1] "" XXX
  SG_ StopReq : 6|1@0+ (1,0) [0|1] "" XXX
+ SG_ TakeOverReq : 4|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 1461 SCC12: 8 XXX
  SG_ ACC_ObjDist : 17|11@1+ (0.1,0) [0|204.7] "m" XXX
