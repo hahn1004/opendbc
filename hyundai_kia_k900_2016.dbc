@@ -516,13 +516,14 @@ BO_ 1680 CLU12: 8 XXX
  SG_ CF_Clu_TurnSigLh : 24|1@1+ (1,0) [0|1] "" XXX
 
 BO_ 1056 SCC11: 8 XXX
- SG_ AliveCounterACC : 12|4@1+ (1,0) [0|15] "" XXX
  SG_ VSetDis : 40|8@1+ (1,0) [0|255] "km/h" XXX
  SG_ ACC_ObjStatus : 48|2@1+ (1,0) [0|3] "" XXX
  SG_ MainMode_ACC : 3|1@1+ (1,0) [0|1] "" XXX
  SG_ TauGapSet : 52|3@1+ (1,0) [0|7] "" XXX
- SG_ NEW_SIGNAL_1 : 4|1@0+ (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_2 : 5|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 10|1@0+ (1,0) [0|1] "" XXX
+ SG_ AliveCounterACC : 12|4@1+ (1,0) [0|15] "" XXX
+ SG_ aReqMax : 16|11@1+ (0.01,-10.23) [-10.23|10.24] "m/s^2" XXX
+ SG_ aReqMin : 29|11@1+ (0.01,-10.23) [-10.23|10.24] "m/s^2" XXX
 
 BO_ 1461 SCC12: 8 XXX
  SG_ ACC_ObjDist : 17|11@1+ (0.1,0) [0|204.7] "m" XXX
